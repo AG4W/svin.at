@@ -1,0 +1,35 @@
+#background-video-contain {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#background-video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+body {background-color: rgb(0, 0, 0);}
